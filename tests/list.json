@@ -1,0 +1,23 @@
+"list": {
+	"id": 313,
+	"creator": {
+		"name": "Liv McElwee",
+		"image": "https://stuffandthings.com/liv.jpg",
+		"id": 4431
+	},
+	"items": [
+		{
+			"id": 441123,
+			"name": "Blue Ribbon",
+			"url": "https://blueribbonsrus.com/blueribbon.php",
+			"image": "https://blueribbonsrus.com/blueribbon.jpg",
+			"is_purchased": false
+		}
+	],
+	"friends": [
+		{
+			"name": "mubatt@wyopub.com",
+			"image": "https://stuffandthings.com/matt.jpg",
+			"id": 4501
+		}
+	]
