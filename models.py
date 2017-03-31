@@ -1,4 +1,5 @@
 import datetime
+import uuid
 
 from peewee import *
 
@@ -17,6 +18,7 @@ class Users(BaseModel):
 	user_passwd = CharField()
 	user_image_uri = CharField()
 	user_invite_code = CharField()
+	user_key = CharField(default="".join(str(uuid.uuid4()).split("-")))
 	date_created = DateTimeField(default=datetime.datetime.now())
 
 

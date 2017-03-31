@@ -1,9 +1,11 @@
 from flask import Flask, jsonify, g
 
 import models
+from api import lists_api
 
 application = Flask(__name__)
 application.secret_key = "43dd6b33d467440dbf6153db8cd7ea14"
+application.register_blueprint(lists_api)
 
 @application.before_request
 def before_request():
